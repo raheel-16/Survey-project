@@ -1,4 +1,3 @@
-// src/routes/answerer.ts
 import { Router } from "express";
 import { prisma } from "../prisma";
 import { AuthRequest } from "../middleware/auth";
@@ -26,7 +25,7 @@ router.get("/surveys", async (req, res) => {
     // For now, we return all surveys. Later you can filter based on access rules
     const surveys = await prisma.survey.findMany({
       include: {
-        questions: true, // include questions so answerer can see what to answer
+        questions: true,
       },
     });
     res.json(surveys);
