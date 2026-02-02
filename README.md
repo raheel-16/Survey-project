@@ -20,17 +20,11 @@ Ready for Docker & cloud deployment
 🛠 Tech Stack
 
 Node.js
-
 TypeScript
-
 Express
-
 Prisma (v6)
-
 PostgreSQL
-
 ts-node
-
 dotenv
 
 📁 Project Structure
