@@ -1,5 +1,4 @@
-// src/prisma.ts
-import "dotenv/config"   // ensure .env is loaded
+import "dotenv/config"  
 import { PrismaClient } from "@prisma/client"
 
 export const prisma = new PrismaClient()
